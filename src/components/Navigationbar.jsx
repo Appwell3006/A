@@ -36,7 +36,7 @@ const Navigationbar = () => {
         </div>
 
         {/*BOTTOM NAV BAR FOR MENU */}
-        <div className="bg-gray-800 dark:bg-gray-500 flex">
+        <div className="bg-gray-800 dark:bg-gray-500 flex p-0.5">
             
             <div>
                 <div className="drawer">
@@ -61,9 +61,15 @@ const Navigationbar = () => {
             </div>
 
             <div className='flex gap-1.5'>
-                <Link to="/Home"><a className="btn text-white text-md bg-transparent border-none">Home</a></Link>
-                <Link to="/About"><a className="btn text-white text-md bg-transparent border-none">About</a></Link>
-                <Link to="/Contact"><a className="btn text-white text-md bg-transparent border-none">Contact</a></Link>
+                <Link to="/Home">
+                    <a className="btn text-white text-md bg-transparent border-none dark:bg-gray-500 dark:text-white shadow-none">Home</a>
+                </Link>
+                <Link to="/About">
+                    <a className="btn text-white text-md bg-transparent border-none dark:bg-gray-500 dark:text-white shadow-none">About</a>
+                </Link>
+                <Link to="/Contact">
+                    <a className="btn text-white text-md bg-transparent border-none dark:bg-gray-500 dark:text-white shadow-none">Contact</a>
+                </Link>
                 
             </div>
         </div>
