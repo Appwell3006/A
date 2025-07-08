@@ -2,6 +2,8 @@ import React from 'react'
 import Logo from '../assets/logo.png'
 import { CircleUserRound, Menu } from 'lucide-react'
 import {Link} from "react-router-dom"
+import Sidebarcom from './Sidebarcom'
+
 
 const Navigationbar = () => {
   return (
@@ -53,8 +55,7 @@ const Navigationbar = () => {
                         
                         <ul className="menu text-base-content min-h-full w-80 p-4 bg-gray-200 dark:bg-gray-900 dark:text-white">
                         {/* Sidebar content here */}
-                        <li><a>Sidebar Item 1</a></li>
-                        <li><a>Sidebar Item 2</a></li>
+                        <Sidebarcom />
                         </ul>
                     </div>
                 </div>
