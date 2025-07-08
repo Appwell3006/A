@@ -6,26 +6,106 @@ const Sidebarcom = () => {
   return (
     <div>
         <ul className="menu rounded-box w-full bg-gray-200 dark:bg-gray-900 dark:text-white">
-            <li><a>Item 1</a></li>
+            <div className="divider">MENU</div>
+            {/*Dasboard menu */}
+            <li><a className='font-bold'>Dashboard</a></li>
+
+            {/*Finance menu */}
                 <li>
-                <details open>
-                <summary>Parent</summary>
-                    <ul>
-                        <Link to="/Home"><li><a>Home</a></li></Link>
-                        <li><a>Submenu 2</a></li>
-                        <li>
-                            <details open>
-                                <summary>Parent</summary>
-                                <ul>
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                    </ul>
+                    <details close>
+                    <summary className='font-bold'>Finance</summary>
+                        <ul>
+                            <li>
+                                {/*Payroll sub menu */}
+                                    <details close>
+                                        <summary >Payroll</summary>
+                                        <ul>
+                                        <li><a>Payslip</a></li>
+                                        <li><a>Deductions</a></li>
+                                        <li><a>Allowance</a></li>
+                                        </ul>
+                                    </details>
+                                {/*Leave sub menu */}
+                                    <details close>
+                                        <summary>Leave</summary>
+                                        <ul>
+                                        <li><a>Add Leave</a></li>
+                                        <li><a>Leave Type</a></li>
+                                        <li><a>Manage Leave</a></li>
+                                        </ul>
+                                    </details>
+                                {/*Holiday sub menu */}
+                                    <details close>
+                                        <summary>Holiday</summary>
+                                        <ul>
+                                        <li><a>Add Holiday</a></li>
+                                        <li><a>Manage Holiday</a></li>
+                                        </ul>
+                                    </details>
+                                {/*Tax sub menu */}
+                                    <details close>
+                                        <summary>Tax</summary>
+                                        <ul>
+                                        <li><a>Add Tax</a></li>
+                                        <li><a>Manage Tax</a></li>
+                                        </ul>
+                                    </details>
+                            </li>
+                        </ul>
                     </details>
                 </li>
-                <li><a>Item 3</a></li>
+            {/*Atendance menu */}
+                <li><a className='font-bold'>Attendance</a></li>
+            {/*User Management menu */}
+                <li>
+                    <details close>
+                    <summary className='font-bold'>User Management</summary>
+                        <ul>
+                            <li>
+                                {/*Employee sub menu */}
+                                    <details close>
+                                        <summary>Employee</summary>
+                                        <ul>
+                                            <li><a>Add Employee</a></li>
+                                            <li><a>Manage Employee</a></li>
+                                        </ul>
+                                    </details>
+                                {/*Manager sub menu */}
+                                    <details close>
+                                        <summary>Client</summary>
+                                        <ul>
+                                            <li><a>Add Client</a></li>
+                                            <li><a>Manage Client</a></li>
+                                        </ul>
+                                    </details>
+                                {/*Client sub menu */}
+                                    <details close>
+                                        <summary>Employee</summary>
+                                            <ul>
+                                                <li><a>Add Client</a></li>
+                                                <li><a>Manage Client</a></li>
+                                            </ul>
+                                    </details>
+                            </li>
+                        </ul>
+
+                    </details>
+                </li>
+            {/*Setting menu */}
+                <li>
+                    <details close>
+                    <summary className='font-bold'>Setting</summary>
+                        <ul>
+                            <li><a>Actiity Log</a></li>
+                            <li><a>Reports</a></li>
+                            <li><a>Backup</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+
+                    </details>
+                </li>
+            {/*Log Out menu */}
+                <li><a className='font-bold'>Log Out</a></li>
         </ul>
     </div>
   )
