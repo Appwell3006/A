@@ -45,7 +45,7 @@ const Navigationbar = () => {
                     <input id="my-drawer" type="checkbox" className="drawer-toggle" />
 
                     <div className="drawer-content">
-                        {/* Page content here */}
+                        {/* Page content */}
                         <label htmlFor="my-drawer" className="btn btn-primary drawer-button shadow-none bg-transparent border-transparent"><Menu color='white' size={30} strokeWidth={1.75} /></label>
                     </div>
 
@@ -54,25 +54,13 @@ const Navigationbar = () => {
                         <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                         
                         <ul className="menu text-base-content min-h-full w-80 p-4 bg-gray-200 dark:bg-gray-900 dark:text-white">
-                        {/* Sidebar content here */}
+                        {/* Sidebar content */}
                         <Sidebarcom />
                         </ul>
                     </div>
                 </div>
             </div>
-
-            <div className='flex gap-1.5'>
-                <Link to="/Home">
-                    <a className="btn text-white text-md bg-transparent border-none dark:bg-gray-500 dark:text-white shadow-none">Home</a>
-                </Link>
-                <Link to="/About">
-                    <a className="btn text-white text-md bg-transparent border-none dark:bg-gray-500 dark:text-white shadow-none">About</a>
-                </Link>
-                <Link to="/Contact">
-                    <a className="btn text-white text-md bg-transparent border-none dark:bg-gray-500 dark:text-white shadow-none">Contact</a>
-                </Link>
-                
-            </div>
+            
         </div>
     </div>
   )

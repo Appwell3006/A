@@ -8,7 +8,7 @@ const Sidebarcom = () => {
         <ul className="menu rounded-box w-full bg-gray-200 dark:bg-gray-900 dark:text-white">
             <div className="divider">MENU</div>
             {/*Dasboard menu */}
-            <li><a className='font-bold'>Dashboard</a></li>
+            <li><Link to ="/Dashboard"><a className='font-bold'>Dashboard</a></Link></li>
 
             {/*Finance menu */}
                 <li>
@@ -55,7 +55,8 @@ const Sidebarcom = () => {
                     </details>
                 </li>
             {/*Atendance menu */}
-                <li><a className='font-bold'>Attendance</a></li>
+                <li><Link to ="/Attendance"><a className='font-bold'>Attendance</a></Link></li>
+
             {/*User Management menu */}
                 <li>
                     <details close>

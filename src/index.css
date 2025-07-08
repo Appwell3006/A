@@ -1,6 +1,19 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
 body {
   font-family: "Roboto Mono", monospace;
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-200 dark:bg-gray-900 dark:text-white m-3 rounded-lg p-3 shadow-lg h-[150px] sm:h-[150px] ;
+  }
+
+  .card-third-row {
+    @apply bg-gray-200 dark:bg-gray-900 dark:text-white m-3 rounded-lg p-3 shadow-lg h-[350px] sm:h-[350px];
+  }
+
+
 }
