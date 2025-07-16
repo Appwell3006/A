@@ -8,7 +8,7 @@ const SearchInput = () => {
             <legend className="fieldset-legend text-sm sm:text-lg" ><Search size={16} />Find</legend>
         </div>
         <div>
-            <input type="text" className="input text-[10px] w-[200px] sm:w-[300px] sm:text-sm " placeholder="Employee code and Client code" />
+            <input type="text" className="input text-[13px] w-[200px] sm:w-[300px] sm:text-sm " placeholder="Employee code and Client code" />
         </div>       
     </div>
   )
