@@ -20,16 +20,17 @@ const Sidebarcom = () => {
                                     <details close>
                                         <summary >Payroll</summary>
                                         <ul>
-                                        <li><a>Payslip</a></li>
-                                        <li><a>Deductions</a></li>
-                                        <li><a>Allowance</a></li>
+                                        <li><Link to ="/Payslip"><a>Payslip</a></Link></li>
+                                        <li><Link to="/Deduction"><a>Deductions</a></Link></li>
+                                        <li><Link to="/Allowance"><a>Allowance</a></Link></li>
+                                        <li><Link to="/Summary"><a>Summary</a></Link></li>
                                         </ul>
                                     </details>
                                 {/*Leave sub menu */}
                                     <details close>
                                         <summary>Leave</summary>
                                         <ul>
-                                        <li><a>Add Leave</a></li>
+                                        <li><Link to="/AddLeave"><a>Add Leave</a></Link></li>
                                         <li><a>Leave Type</a></li>
                                         <li><a>Manage Leave</a></li>
                                         </ul>
