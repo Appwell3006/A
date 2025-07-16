@@ -31,16 +31,15 @@ const Sidebarcom = () => {
                                         <summary>Leave</summary>
                                         <ul>
                                         <li><Link to="/AddLeave"><a>Add Leave</a></Link></li>
-                                        <li><a>Leave Type</a></li>
-                                        <li><a>Manage Leave</a></li>
+                                        <li><Link to="/ManageLeave"><a>Manage Leave</a></Link></li>
                                         </ul>
                                     </details>
                                 {/*Holiday sub menu */}
                                     <details close>
                                         <summary>Holiday</summary>
                                         <ul>
-                                        <li><a>Add Holiday</a></li>
-                                        <li><a>Manage Holiday</a></li>
+                                        <li><Link to="/AddHoliday"><a>Add Holiday</a></Link></li>
+                                        <li><Link to="/ManageHoliday"><a>Manage Holiday</a></Link></li>
                                         </ul>
                                     </details>
                                 {/*Tax sub menu */}

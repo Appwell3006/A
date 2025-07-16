@@ -11,6 +11,9 @@ import Deduction from './pages/Finance/Payroll/Deduction'
 import Allowance from './pages/Finance/Payroll/Allowance'
 import Summary from './pages/Finance/Payroll/Summary'
 import Addleave from './pages/Finance/Leave/Addleave'
+import ManageLeave from './pages/Finance/Leave/ManageLeave'
+import AddHoliday from './pages/Finance/Holiday/AddHoliday'
+import ManageHoliday from './pages/Finance/Holiday/ManageHoliday'
 
 
 
@@ -38,6 +41,10 @@ function App() {
           <Route path="/Summary" element={<Summary />} />
 
           <Route path="/AddLeave" element={<Addleave />} />
+          <Route path="/ManageLeave" element={<ManageLeave />} />
+
+          <Route path="/AddHoliday" element={<AddHoliday />} />
+          <Route path="/ManageHoliday" element={<ManageHoliday />} />
           
           
 
