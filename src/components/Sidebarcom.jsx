@@ -42,14 +42,6 @@ const Sidebarcom = () => {
                                         <li><Link to="/ManageHoliday"><a>Manage Holiday</a></Link></li>
                                         </ul>
                                     </details>
-                                {/*Tax sub menu */}
-                                    <details close>
-                                        <summary>Tax</summary>
-                                        <ul>
-                                        <li><a>Add Tax</a></li>
-                                        <li><a>Manage Tax</a></li>
-                                        </ul>
-                                    </details>
                             </li>
                         </ul>
                     </details>

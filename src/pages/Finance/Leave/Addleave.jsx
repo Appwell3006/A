@@ -12,7 +12,7 @@ const Addleave = () => {
         </div>
 
         {/* Main content of Add leave */}
-        <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[580px] p-4 overflow-x-auto flex justify-center items-left flex-col sm:items-center'>
+        <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[600px] p-4 flex justify-center items-left flex-col sm:items-center'>
             <div className='flex flex-col gap-4 mt-4'> 
                 <div>
                     <label className="input w-[390px] sm:w-[500px]">
