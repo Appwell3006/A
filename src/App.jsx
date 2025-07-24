@@ -14,6 +14,10 @@ import Addleave from './pages/Finance/Leave/Addleave'
 import ManageLeave from './pages/Finance/Leave/ManageLeave'
 import AddHoliday from './pages/Finance/Holiday/AddHoliday'
 import ManageHoliday from './pages/Finance/Holiday/ManageHoliday'
+import AddEmployee from './pages/UserManagement/Employee/AddEmployee'
+import ManageEmployee from './pages/UserManagement/Employee/ManageEmployee'
+import AddClient from './pages/UserManagement/Client/AddClient'
+import ManageClient from './pages/UserManagement/Client/ManageClient'
 
 
 
@@ -53,7 +57,11 @@ function App() {
 
 
           {/* UserMananagement Sidebar link */}
-          
+          <Route path="/AddEmployee" element={<AddEmployee />} />
+          <Route path="/ManageEmployee" element={<ManageEmployee />} />
+
+          <Route path="/AddClient" element={<AddClient />} />
+          <Route path="/ManageClient" element={<ManageClient/>} />
 
           {/* Setting Sidebar link */}
           <Route path="/About" element={<About />} />

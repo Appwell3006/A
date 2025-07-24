@@ -44,7 +44,7 @@ const Attendance = () => {
           </select>
         </div>
         <div>
-          <button className="btn btn-primary">Submit</button>
+          <button className="btn btn-primary">Select</button>
         </div>
       </div>
 

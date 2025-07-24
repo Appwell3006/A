@@ -59,24 +59,24 @@ const Sidebarcom = () => {
                                     <details close>
                                         <summary>Employee</summary>
                                         <ul>
-                                            <li><a>Add Employee</a></li>
-                                            <li><a>Manage Employee</a></li>
+                                            <li><Link to="/AddEmployee"><a>Add Employee</a></Link></li>
+                                            <li><Link to="/ManageEmployee"><a>Manage Employee</a></Link></li>
                                         </ul>
                                     </details>
                                 {/*Manager sub menu */}
                                     <details close>
                                         <summary>Client</summary>
                                         <ul>
-                                            <li><a>Add Client</a></li>
-                                            <li><a>Manage Client</a></li>
+                                            <li><Link to="/AddClient"><a>Add Client</a></Link></li>
+                                            <li><Link to="/ManageClient"><a>Manage Client</a></Link></li>
                                         </ul>
                                     </details>
                                 {/*Client sub menu */}
                                     <details close>
-                                        <summary>Employee</summary>
+                                        <summary>Manager</summary>
                                             <ul>
-                                                <li><a>Add Client</a></li>
-                                                <li><a>Manage Client</a></li>
+                                                <li><a>Add Manager</a></li>
+                                                <li><a>Manage Manager</a></li>
                                             </ul>
                                     </details>
                             </li>
