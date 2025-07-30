@@ -1,4 +1,5 @@
 import React from 'react'
+import TableAddClient from '../../../components/TableAddClient'
 
 const AddClient = () => {
   return (
@@ -12,22 +13,38 @@ const AddClient = () => {
         </div>
 
         {/* Main content of Add Client */}
-        <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[600px] p-4 '>
-
+        <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[300px] p-4 flex flex-col justify-center items-center overflow-x-auto gap-3'>
+                <div>
+                    <label className="input w-[390px] sm:w-[500px]">
+                        <span className="label">Client Name</span>
+                        <input type="text" placeholder="Type Here" />
+                    </label>
+                </div>
+                <div>
+                    <label className="input w-[390px] sm:w-[500px]">
+                        <span className="label">Cient Code</span>
+                        <input type="text" placeholder="Type Here" />
+                    </label>
+                </div>
+                <div>
+                    <fieldset className="fieldset">
+                        <legend className="fieldset-legend">Upload the Papers</legend>
+                        <input type="file" className="file-input" />
+                    </fieldset>
+                </div>
+                <div>
+                  <button className="btn btn-success mt-4">set location</button>
+                </div>
         </div>
 
         <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[600px] p-4 overflow-y-auto overflow-x-auto'>
-            <div className='grid grid-cols-4 gap-3 text-center'>
-                {/*1 row */}
-                <div></div>
-                <div></div>
-                <div className='col-span-2'>12 Hours Shift</div>
+            <TableAddClient />
+        </div>
 
-                {/*2 row */}
-                <div></div>
-                <div></div>
-                <div>Dayshift</div>
-                <div>Nightshift</div>
+        <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[70px]'>
+            <div className='flex flex-row justify-center items-center'>
+                <button className="btn btn-primary mt-4">Submit</button>
+                <button className="btn btn-secondary mt-4 ml-2">Cancel</button>
             </div>
         </div>
 

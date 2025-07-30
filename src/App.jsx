@@ -18,6 +18,8 @@ import AddEmployee from './pages/UserManagement/Employee/AddEmployee'
 import ManageEmployee from './pages/UserManagement/Employee/ManageEmployee'
 import AddClient from './pages/UserManagement/Client/AddClient'
 import ManageClient from './pages/UserManagement/Client/ManageClient'
+import AddManager from './pages/UserManagement/Manager/AddManager'
+import ManageManager from './pages/UserManagement/Manager/ManageManager'
 
 
 
@@ -62,6 +64,9 @@ function App() {
 
           <Route path="/AddClient" element={<AddClient />} />
           <Route path="/ManageClient" element={<ManageClient/>} />
+
+          <Route path="/AddManager" element={<AddManager />} />
+          <Route path="/ManageManager" element={<ManageManager />} />
 
           {/* Setting Sidebar link */}
           <Route path="/About" element={<About />} />

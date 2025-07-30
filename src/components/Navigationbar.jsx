@@ -6,6 +6,12 @@ import Sidebarcom from './Sidebarcom'
 
 
 const Navigationbar = () => {
+    // Function to close the drawer when a sidebar item is clicked
+    const closeDrawer = () => {
+        const drawer = document.getElementById('my-drawer');
+        if (drawer) drawer.checked = false;
+    };
+
   return (
     
     <div>
@@ -55,7 +61,7 @@ const Navigationbar = () => {
                         
                         <ul className="menu text-base-content min-h-full w-80 p-4 bg-gray-200 dark:bg-gray-900 dark:text-white">
                         {/* Sidebar content */}
-                        <Sidebarcom />
+                        <Sidebarcom onItemClick={closeDrawer}/>
                         </ul>
                     </div>
                 </div>
