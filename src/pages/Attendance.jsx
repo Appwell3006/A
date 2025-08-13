@@ -1,7 +1,7 @@
 import { Search } from 'lucide-react'
 import React from 'react'
 import SearchInput from '../components/SearchInput'
-import TableAttendance15 from '../components/TableAttendance15'
+import TableAttendance15 from '../components/Attendance/TableAttendance15'
 
 const Attendance = () => {
   return (
@@ -20,35 +20,17 @@ const Attendance = () => {
           <SearchInput />
         </div>
         <div>
-          <select defaultValue="Pick a color" className="select w-[150px] uppercase text-center">
-            <option disabled={true}>Pick a Month</option>
-            <option>January</option>
-            <option>February</option>
-            <option>March</option>
-            <option>April</option>
-            <option>May</option>
-            <option>June</option>
-            <option>July</option>
-            <option>August</option>
-            <option>Spetember</option>
-            <option>October</option>
-            <option>November</option>
-            <option>December</option>
-          </select>
-        </div>
-        <div>
-          <select defaultValue="Pick a color" className="select w-[100px] text-center">
-            <option disabled={true}>Pick a Dates</option>
-            <option>15</option>
-            <option>30</option>
-          </select>
+            <label className="input w-[300px]">
+              <span className="label">Select Date</span>
+              <input type="Date" />
+            </label>
         </div>
         <div>
           <button className="btn btn-primary">Select</button>
         </div>
       </div>
 
-      <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[500px] p-4 overflow-x-auto'>
+      <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[700px] p-4 overflow-x-auto'>
         <div>
           <h3 className='font-bold text-2xl'>January 1 - 15 2025</h3>
         </div>

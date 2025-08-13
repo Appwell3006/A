@@ -2,9 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route, Routes, Link} from "react-router-dom"
 import Dashboard from './pages/Dashboard'
-import About from './pages/About'
 import Navigationbar from './components/Navigationbar'
-import Contact from './pages/Setting/Contact'
 import Attendance from './pages/Attendance'
 import Payslip from './pages/Finance/Payroll/Payslip'
 import Deduction from './pages/Finance/Payroll/Deduction'
@@ -20,6 +18,14 @@ import AddClient from './pages/UserManagement/Client/AddClient'
 import ManageClient from './pages/UserManagement/Client/ManageClient'
 import AddManager from './pages/UserManagement/Manager/AddManager'
 import ManageManager from './pages/UserManagement/Manager/ManageManager'
+import ActivityLog from './pages/ActivityLog'
+import Viewprofile from './pages/Viewprofile'
+import Setting from './pages/Setting'
+import Logout from './pages/Logout'
+import Backups from './pages/Backups'
+import Reports from './pages/Reports'
+import Contact from './pages/Contact'
+import NotFound from './pages/NotFound'
 
 
 
@@ -69,10 +75,22 @@ function App() {
           <Route path="/ManageManager" element={<ManageManager />} />
 
           {/* Setting Sidebar link */}
-          <Route path="/About" element={<About />} />
+          <Route path="/ActivityLog" element={<ActivityLog />} />
+          <Route path="/Backups" element={<Backups />} />
+          <Route path="/Reports" element={<Reports />} />
           <Route path="/Contact" element={<Contact />} />
 
+
+          {/* Navbar menu*/}
+          <Route path="/Viewprofile" element={<Viewprofile/>} />
+          <Route path="/Setting" element={<Setting/>} />
+
+          {/* Logout link */}
+          <Route path="/Logout" element={<Logout />} />
+
+
           {/* Not Found link */}
+          <Route path="*" element={<NotFound />} />
 
           
         </Routes>

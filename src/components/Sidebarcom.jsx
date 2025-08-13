@@ -90,10 +90,10 @@ const Sidebarcom = ({onItemClick}) => {
                     <details close>
                     <summary className='font-bold'>Setting</summary>
                         <ul>
-                            <li><a>Actiity Log</a></li>
-                            <li><a>Reports</a></li>
-                            <li><a>Backup</a></li>
-                            <li><a>Contact</a></li>
+                            <li><Link to="/ActivityLog" onClick={onItemClick}><a>Activity Log</a></Link></li>
+                            <li><Link to="/Reports" onClick={onItemClick}><a>Reports</a></Link></li>
+                            <li><Link to="/Backups" onClick={onItemClick}><a>Backup</a></Link></li>
+                            <li><Link to="/Contact" onClick={onItemClick}><a>Contact</a></Link></li>
                         </ul>
 
                     </details>

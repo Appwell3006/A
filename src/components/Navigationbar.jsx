@@ -33,11 +33,11 @@ const Navigationbar = () => {
                 <div className="dropdown dropdown-end">
                 <div tabIndex={0} role="button" className="btn m-1 border-transparent bg-transparent shadow-none"><CircleUserRound size={30} strokeWidth={1.75} /></div>
                 <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                    <li><a>Profile</a></li>
-                    <li><a>Setting</a></li>
+                    <li><Link to ="/Viewprofile"><a>Profile</a></Link></li>
+                    <li><Link to ="/Setting"><a>Setting</a></Link></li>
                     <hr className='my-1.5'/>
-                    <li><a className='font-bold'>Log out</a></li>
-                    
+                    <li><Link to ="/Logout"><a className='font-bold'>Log out</a></Link></li>
+
                 </ul>
                 </div>
             </div>

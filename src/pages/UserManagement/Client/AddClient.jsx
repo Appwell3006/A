@@ -1,6 +1,5 @@
 import React from 'react'
 import TableAddClient from '../../../components/TableAddClient'
-
 const AddClient = () => {
   return (
     <div>
