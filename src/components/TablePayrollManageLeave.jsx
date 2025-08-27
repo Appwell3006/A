@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonforManageLeave from '../components/Buttons/ButtonforManageLeave'
 
 const TablePayrollManageLeave = () => {
   return (
@@ -12,7 +13,7 @@ const TablePayrollManageLeave = () => {
                         <th className='p-2'>Client Code</th>
                         <th className='p-2'>Leave type</th>
                         <th className='p-2'>Duration</th>
-                        <th className='p-2'>Dates</th>
+                        <th className='p-2 sm:px-20  px-30'>Dates</th>
                         <th className='p-2'>Updated by</th>
                         <th className='p-2'>Action</th>
                     </tr>
@@ -28,7 +29,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>3 days</td>
                         <td className='p-2'>2023-10-01 to 2023-10-03</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>2</td>
@@ -39,7 +40,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>5 days</td>
                         <td className='p-2'>2023-10-05 to 2023-10-09</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>3</td>
@@ -50,7 +51,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>3 days</td>
                         <td className='p-2'>2023-10-01 to 2023-10-03</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>4</td>
@@ -61,7 +62,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>5 days</td>
                         <td className='p-2'>2023-10-05 to 2023-10-09</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>5</td>
@@ -72,7 +73,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>3 days</td>
                         <td className='p-2'>2023-10-01 to 2023-10-03</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>6</td>
@@ -83,7 +84,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>5 days</td>
                         <td className='p-2'>2023-10-05 to 2023-10-09</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>7</td>
@@ -94,7 +95,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>3 days</td>
                         <td className='p-2'>2023-10-01 to 2023-10-03</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>8</td>
@@ -105,7 +106,7 @@ const TablePayrollManageLeave = () => {
                         <td className='p-2'>5 days</td>
                         <td className='p-2'>2023-10-05 to 2023-10-09</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageLeave /></td>
                     </tr>
 
                 </tbody>

@@ -1,4 +1,6 @@
 import React from 'react'
+import ButtonformanagerEdit from './Buttons/Mnager Button/ButtonformanagerEdit'
+import ButtonformanagerDelete from './Buttons/Mnager Button/ButtonformanagerDelete'
 
 const TableManageManager = () => {
   return (
@@ -18,81 +20,81 @@ const TableManageManager = () => {
                     <td>1</td>
                     <td>John Doe</td>
                     <td>Manager</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Jane Smith</td>
                     <td>Senior Manager</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>Mike Johnson</td>
                     <td>Finance</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>Emily Davis</td>
                     <td>Manager</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>David Wilson</td>
                     <td>Director</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>Sarah Brown</td>
                     <td>Manager</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>7</td>
                     <td>Chris Green</td>
                     <td>Senior Manager</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>8</td>
                     <td>Alice White</td>
                     <td>Finance</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
                 <tr>
                     <td>9</td>
                     <td>Tom Black</td>
                     <td>Manager</td>
-                    <td>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonformanagerEdit />
+                        <ButtonformanagerDelete />
                     </td>
                 </tr>
 

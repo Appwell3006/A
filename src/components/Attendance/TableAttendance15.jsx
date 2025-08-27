@@ -1,5 +1,5 @@
 import React from 'react'
-import Buttonforattendance from '../Buttonforattendance'
+import Buttonforattendance from '../Buttons/Buttonforattendance'
 
 const TableAttendance15 = () => {
   return (

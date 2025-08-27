@@ -1,5 +1,6 @@
 import React from 'react'
 import TablePayrollManageLeave from '../../../components/TablePayrollManageLeave'
+import SearchInput from '../../../components/SearchInput'
 
 const ManageLeave = () => {
   return (
@@ -14,7 +15,14 @@ const ManageLeave = () => {
 
         {/* Main content of Add leave */}
         <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[500px] p-4 overflow-x-auto'>
-            <TablePayrollManageLeave />
+            
+            <div className='flex flex-row'>
+                <SearchInput />
+            </div>
+            <div>
+                <TablePayrollManageLeave />
+            </div>
+            
         </div>
     </div>
   )

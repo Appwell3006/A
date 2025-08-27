@@ -1,4 +1,6 @@
 import React from 'react'
+import ButtonforemployeeEdit from './Buttons/Employee button/ButtonforemployeeEdit'
+import ButtonforemployeeDelete from './Buttons/Employee button/ButtonforemployeeDelete'
 
 const TableManageEmployee = () => {
   return (
@@ -20,9 +22,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP001</td>
                     <td className='p-2'>John Doe</td>
                     <td className='p-2'>CL001</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -30,9 +32,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP002</td>
                     <td className='p-2'>Jane Smith</td>
                     <td className='p-2'>CL002</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -40,9 +42,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP001</td>
                     <td className='p-2'>John Doe</td>
                     <td className='p-2'>CL001</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -50,9 +52,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP002</td>
                     <td className='p-2'>Jane Smith</td>
                     <td className='p-2'>CL002</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -60,9 +62,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP001</td>
                     <td className='p-2'>John Doe</td>
                     <td className='p-2'>CL001</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -70,9 +72,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP002</td>
                     <td className='p-2'>Jane Smith</td>
                     <td className='p-2'>CL002</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -80,9 +82,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP001</td>
                     <td className='p-2'>John Doe</td>
                     <td className='p-2'>CL001</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -90,9 +92,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP002</td>
                     <td className='p-2'>Jane Smith</td>
                     <td className='p-2'>CL002</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -100,9 +102,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP001</td>
                     <td className='p-2'>John Doe</td>
                     <td className='p-2'>CL001</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -110,9 +112,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP002</td>
                     <td className='p-2'>Jane Smith</td>
                     <td className='p-2'>CL002</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -120,9 +122,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP001</td>
                     <td className='p-2'>John Doe</td>
                     <td className='p-2'>CL001</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
                 <tr>
@@ -130,9 +132,9 @@ const TableManageEmployee = () => {
                     <td className='p-2'>EMP002</td>
                     <td className='p-2'>Jane Smith</td>
                     <td className='p-2'>CL002</td>
-                    <td className='p-2'>
-                        <button className='btn btn-primary'>Edit</button>
-                        <button className='btn btn-secondary ml-2'>Delete</button>
+                    <td className='p-2 flex flex-row justify-center gap-1.5'>
+                        <ButtonforemployeeEdit />
+                        <ButtonforemployeeDelete />
                     </td>
                 </tr>
             </tbody>

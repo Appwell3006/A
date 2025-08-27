@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonforManageHoliday from './Buttons/ButtonforManageHoliday'
 
 const TablePayrollManageHoliday = () => {
   return (
@@ -24,7 +25,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Regular Holiday</td>
                         <td className='p-2'>2023-01-01</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>2</td>
@@ -33,7 +34,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Special Holiday</td>
                         <td className='p-2'>2023-06-12</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>3</td>
@@ -42,7 +43,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Regular Holiday</td>
                         <td className='p-2'>2023-01-01</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>4</td>
@@ -51,7 +52,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Special Holiday</td>
                         <td className='p-2'>2023-06-12</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>5</td>
@@ -60,7 +61,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Regular Holiday</td>
                         <td className='p-2'>2023-01-01</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>6</td>
@@ -69,7 +70,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Special Holiday</td>
                         <td className='p-2'>2023-06-12</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>7</td>
@@ -78,7 +79,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Regular Holiday</td>
                         <td className='p-2'>2023-01-01</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>8</td>
@@ -87,7 +88,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Special Holiday</td>
                         <td className='p-2'>2023-06-12</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>9</td>
@@ -96,7 +97,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Regular Holiday</td>
                         <td className='p-2'>2023-01-01</td>
                         <td className='p-2'>Admin</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                     <tr>
                         <td className='p-2'>10</td>
@@ -105,7 +106,7 @@ const TablePayrollManageHoliday = () => {
                         <td className='p-2'>Special Holiday</td>
                         <td className='p-2'>2023-06-12</td>
                         <td className='p-2'>Finance</td>
-                        <td className='p-2'><button className='btn btn-primary'>Edit</button></td>
+                        <td className='p-2'><ButtonforManageHoliday /></td>
                     </tr>
                 </tbody>
         </table>
