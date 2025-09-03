@@ -17,7 +17,7 @@ const Summary = () => {
         {/* Main content of Summary */}
         <div className="divider divider-start mx-7 mt-8 font-bold uppercase text-1xl">Employee Work Hours and Holiday Summary</div>
         <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[500px] p-4 overflow-x-auto'>
-            <div className='flex flex-row-reverse'>
+            <div className='flex flex-row'>
                 <SearchInput />
             </div>
             <div>

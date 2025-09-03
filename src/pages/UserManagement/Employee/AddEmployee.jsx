@@ -14,6 +14,44 @@ const AddEmployee = () => {
             </div>
         </div>
 
+        
+        <div className='grid grid-cols-1 sm:overflow-auto sm:grid-cols-2 gap-4 mt-5 mx-6'>
+            <div>
+                <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white rounded-lg h-[900px] p-4 overflow-auto'>
+                    <div>
+                        <div className="divider divider-neutral">1. Personal Data</div>
+                    </div>
+
+                    {/*input date of personal data */}
+                    <div className='flex flex-col justify-center items-center mt-4 '>
+                        <PersonalInfo />
+                    </div>
+                </div>
+            </div>
+
+            <div className='grid-rows-1 gap-4'>
+                <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white rounded-lg h-[380px] p-4'>
+                    <div>
+                        <div className="divider divider-neutral">2. Educational Background</div>
+                    </div>
+                    <div className='flex flex-col justify-center items-center overflow-y-auto  mt-4'>
+                        <EducationalBackground />
+                    </div>
+                </div>
+                <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white rounded-lg h-[380px] p-4 mt-6'> 
+                    <div>
+                        <div className="divider divider-neutral">3. Employement Record</div>
+                    </div>
+                    <div className='overflow-y-auto'>
+                        <EmploymentRecord />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
         {/* Main content of Add Employee */}
         <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[600px] p-4 overflow-x-auto'>
             <div>
@@ -27,6 +65,7 @@ const AddEmployee = () => {
             
             
         </div>
+
         <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[360px] p-4 '>
             <div>
                 <div className="divider divider-neutral">2. Educational Background</div>

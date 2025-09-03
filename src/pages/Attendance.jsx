@@ -15,12 +15,12 @@ const Attendance = () => {
       </div>
 
       {/*Attendance page content */}
-      <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[70px] p-4 flex justify-center items-left flex-row gap-2 sm:items-center'>
-        <div>
+      <div className='shadow-lg bg-gray-200 dark:bg-gray-900 dark:text-white mt-5 mx-6 mb-1.5 sm:mb-3 rounded-lg h-[160px] sm:h-[70px] p-4 flex justify-center items-left flex-col sm:flex-row gap-2 items-center sm:items-center'>
+        <div className='flex flex-row'>
           <SearchInput />
         </div>
-        <div>
-            <label className="input w-[300px]">
+        <div className=''>
+            <label className="input w-[270px] sm:w-[300px]">
               <span className="label">Select Date</span>
               <input type="Date" />
             </label>

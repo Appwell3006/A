@@ -27,7 +27,7 @@ const TableAttendance15 = () => {
                         <th className='p-2'>14</th>
                         <th className='p-2'>15</th>
                         <th className='p-2'>Total Hours</th>
-                        <th className='p-2'>Summary</th>
+                        <th className='p-2'>Summary Time</th>
                         <th className='p-2'>Regular Hours</th>
                         <th className='p-2'>Overtime</th>
                         <th className='p-2'>No. of Days</th>

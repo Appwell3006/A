@@ -21,7 +21,6 @@ import ManageManager from './pages/UserManagement/Manager/ManageManager'
 import ActivityLog from './pages/ActivityLog'
 import Viewprofile from './pages/Viewprofile'
 import Setting from './pages/Setting'
-import Logout from './pages/Logout'
 import Backups from './pages/Backups'
 import Reports from './pages/Reports'
 import Contact from './pages/Contact'
@@ -86,7 +85,7 @@ function App() {
           <Route path="/Setting" element={<Setting/>} />
 
           {/* Logout link */}
-          <Route path="/Logout" element={<Logout />} />
+          <Route path="/Logout" element={<></>} />
 
 
           {/* Not Found link */}

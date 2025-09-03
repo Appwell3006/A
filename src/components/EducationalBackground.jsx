@@ -5,77 +5,65 @@ const EducationalBackground = () => {
     <div className='flex flex-col gap-2 items-center'>
         <div className='flex flex-row sm:flex-row gap-2'>
                     <div>
-                        <label className="input w-[450px]">
+                        <label className="input w-[300px]">
                             <span className="label">Primary School:</span>
                             <input type="text" placeholder="Type Here" />
                         </label>
                     </div>
 
                     <div>
-                        <label className="input w-[350px]">
-                            <span className="label">Date Graduated:</span>
-                            <input type="text" placeholder="Type Here" />
-                        </label>
+                        <input type="date" className="input w-[200px]" />
                     </div>
         </div>
 
         <div className='flex flex-row sm:flex-row gap-2'>
                     <div>
-                        <label className="input w-[450px]">
+                        <label className="input w-[300px]">
                             <span className="label">Secondary School:</span>
                             <input type="text" placeholder="Type Here" />
                         </label>
                     </div>
 
                     <div>
-                        <label className="input w-[350px]">
-                            <span className="label">Date Graduated:</span>
-                            <input type="text" placeholder="Type Here" />
-                        </label>
+                        <input type="date" className="input w-[200px]" />
                     </div>
         </div>
 
         <div className='flex flex-row sm:flex-row gap-2'>
                     <div>
-                        <label className="input w-[450px]">
+                        <label className="input w-[300px]">
                             <span className="label">Vocational School:</span>
                             <input type="text" placeholder="Type Here" />
                         </label>
                     </div>
 
                     <div>
-                        <label className="input w-[350px]">
-                            <span className="label">Date Graduated:</span>
-                            <input type="text" placeholder="Type Here" />
-                        </label>
+                        <input type="date" className="input w-[200px]" />
                     </div>
         </div>
 
         <div className='flex flex-row sm:flex-row gap-2'>
                     <div>
-                        <label className="input w-[450px]">
+                        <label className="input w-[300px]">
                             <span className="label">Collage:</span>
                             <input type="text" placeholder="Type Here" />
                         </label>
                     </div>
 
                     <div>
-                        <label className="input w-[350px]">
-                            <span className="label">Date Graduated:</span>
-                            <input type="text" placeholder="Type Here" />
-                        </label>
+                        <input type="date" className="input w-[200px]" />
                     </div>
         </div>
 
         <div>
-            <label className="input w-[810px]">
+            <label className="input w-[510px]">
                 <span className="label">Course - if undergraduate please indicate the colage years:</span>
                 <input type="text" placeholder="Type Here" />
             </label>
         </div>
 
         <div>
-            <label className="input w-[810px]">
+            <label className="input w-[510px]">
                 <span className="label">Special skills:</span>
                 <input type="text" placeholder="Type Here" />
             </label>
